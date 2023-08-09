@@ -1,11 +1,6 @@
 .first {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
-    color: white;
-}
-
-.first:hover {
-    color:aquamarine;
 }
 
 nav {
@@ -17,6 +12,18 @@ nav {
 
 #programs {
     display: flex;
+}
+
+a {
+    text-decoration: none;
+}
+
+.mainLinks {
+    color: white;
+}
+
+.mainLinks:hover {
+    color: aquamarine;
 }
 
 @media (max-width: 700px) {
