@@ -1,0 +1,36 @@
+.first {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: white;
+}
+
+.first:hover {
+    color:aquamarine;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:blue;
+}
+
+#programs {
+    display: flex;
+}
+
+@media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        width: 667px;
+    }
+
+    #programs {
+        flex-wrap: wrap;
+    }
+
+    #ypie_area {
+        display: flex;
+        flex-direction: column;
+    }
+}
